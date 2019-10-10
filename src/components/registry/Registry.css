@@ -1,0 +1,85 @@
+.registry-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: url('https://images.pexels.com/photos/1939485/pexels-photo-1939485.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
+}
+.registry-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.r-card-container {
+  width: 750px;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #dadce0;
+  padding: 48px 40px 36px;
+  border-radius: 5px;
+  background: #FFFFFF;
+  margin: 30px;
+}
+.card-text-r {
+  width: 60%;
+  height: 100%;
+  text-align: left;
+}
+.size-text-name {
+  font-size: 20px;
+}
+.size-text-create {
+  font-size: 24px;
+  line-height: 10px;
+}
+.card-text-r2 {
+  width: 40%;
+  height: 100%;
+  background: url('https://images.pexels.com/photos/1080696/pexels-photo-1080696.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
+  background-size: cover;
+}
+.row-re {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0px 40px 0px 0px;
+}
+.w-40 {
+  width: 41%;
+  height: 20px;
+  padding: 7px 11px;
+}
+.w-100 {
+  margin-top: 25px;
+  width: 85.5%;
+  height: 20px;
+  padding: 7px 11px;
+}
+.email {
+  margin-top: 5px;
+  font-size: 12px;
+}
+.center-b {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 90%;
+  padding: 0px 40px 0px 0px;
+}
+.buton-r {
+  background: #1a73e8;
+  width: 40%;
+  height: 48px;
+  border: 0px;
+  border-radius: 2px;
+  color: #ffffff;
+  margin-top: 20px;
+}
+.top {
+  margin-top: 0px;
+  height: 100px;
+}

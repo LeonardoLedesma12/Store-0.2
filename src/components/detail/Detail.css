@@ -1,0 +1,58 @@
+.panel-wrapper {
+  width: 90%;
+  margin: 0 5%;
+  display: flex;
+  flex-direction: row;
+}
+.half {
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+}
+.full {
+  margin-top: 120px;
+}
+.media {
+  height: 40vw;
+  margin-left: 160px;
+}
+.details {
+  flex: 1;
+  margin-left: 140px;
+  margin-top: 120px;
+  position: relative;
+}
+.product-detail {
+  max-width: 300px;
+}
+.small {
+  font-size: 40%;
+  font-weight: 100;
+  color: #999;
+  line-height: 2.5;
+}
+.product-name {
+  font-size: 25px;
+  margin-top: -5px;
+}
+.price {
+  text-align: left;
+}
+.classificationBody2 {
+  font-size: 15px;;
+  text-align: left;
+  color: #666;
+}
+.cta2 {
+  text-align: center;
+  padding-top: 2em;
+}
+.boton2 {
+  padding: 1.2em 3em;
+  background: #000;
+  text-decoration: none;
+  color: #FFF;
+  letter-spacing: 0.1em;
+  margin: 0 auto;
+  text-transform: uppercase;
+}

@@ -1,0 +1,169 @@
+.container_Contact{
+  width: 100%;
+  height: 80vh;
+}
+.title_Contact{
+  height:15%;
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.direction_title_Contact{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.title_big_Contact{
+  text-transform: uppercase;
+  font-size: 25px;
+}
+.information_Contact{
+  height: 70%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.information_txt_Contact{
+  width: auto;
+  height: 100%;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.txt_size_Contact{
+  font-size: 16px;
+  text-align: center;
+}
+.content_Contact{
+  width: 75%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.txt_color_Contact{
+  color: #808080;
+  font-size: 16px;
+}
+.width_content_Contact{
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.dir_content_Contact{
+  display: flex;
+  flex-direction:row;
+}
+.txt_input{
+  padding-left: 20px;
+  height: 57px;
+  width: 50%;
+  border: 2px solid black;
+}
+.message_Contact{
+  padding-left: 20px;
+  width: auto;
+  height: 200px;
+  border: 2px solid black;
+}
+.height_last_div{
+  padding-left: 20px;
+  height: 57px;
+  width: auto;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.title_ubication_Contact{
+  width: 100%;
+  height: 74px;
+  background:rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.txt_Ubication_Contact{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.title_big_Ubication{
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.image_ubication_Contact{
+  height: 450px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.information_row{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  width: 25%;
+}
+.place_ubication{
+  width: 80%;
+  height: 100%;
+  background-image: url('https://androidayuda.com/app/uploads-androidayuda.com/2019/07/ubicacion.jpg');
+  background-size: cover;
+}
+@media (max-width: 1024px) {
+  .container_Contact{
+    width: 100%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .dir_content_Contact{
+    flex-direction: column;
+  }
+  .txt_input{
+    width: auto;
+    height: 30px;
+  }
+  .message_Contact{
+    width: auto;
+    height: 90px;
+  }
+  .height_last_div{
+    width: auto;
+    height: 30px;
+  }
+  .information_Contact{
+    flex-direction: column;
+  }
+  .information_txt_Contact{
+  display: flex;
+  padding-left: 0px;
+  padding-right: 0px;
+  width: 100%;
+  flex-direction: column;
+  }
+  .txt_size_Contact{
+    margin: 0px;
+  }
+  .txt_color_Contact{
+    margin: 5px;
+  }
+  .content_Contact{
+    width: auto;
+    display: flex;
+    justify-content:center;
+  }
+  .image_ubication_Contact{
+    height: 275px;
+  }
+  .title_big_Contact{
+    text-align: center;
+  }
+  .information_row{
+    width: auto;
+  }
+}

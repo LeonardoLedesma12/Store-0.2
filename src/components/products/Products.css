@@ -1,0 +1,135 @@
+.products-container {
+  background: url(https://http2.mlstatic.com/muebles-rusticos-de-madera-nativa-D_NQ_NP_556321-MLC20756099494_062016-F.jpg) !important;
+  background-size: cover !important;
+  background-position: center center !important;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  display: block;
+  max-height: 80vh;
+  min-height: 400px;
+}
+.product-item {
+  position: absolute;
+  min-height: 100%;
+  height: inherit;
+  width: inherit;
+  min-width: 100%;
+}
+.box-right {
+  display: table;
+  padding-left: 25px;
+  height: 100%;
+  min-height: 28vw;
+  text-align: center;
+  margin: 0 5%;
+  width: 90%;
+}
+.content-products {
+  height: 100%;
+  width: inherit;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+.slide-content {
+  display: table-cell;
+  vertical-align: middle;
+  height: 100%;
+  width: inherit;
+  text-align: left;
+  color: aliceblue;
+  position: relative;
+}
+.emph {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: small;
+  margin-bottom: -2px;
+  color: #fff;
+}
+.detail {
+  line-height: 1em;
+  font-size: xx-large;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  margin: 0 0 10px;
+}
+.col-md {
+  background: #FFF;
+  text-align: center;
+  margin: 0 5%;
+  width: 90%;
+  display: flex;
+  margin-top: 10px;
+}
+.space {
+  width: 25%;
+  padding: 20px;
+  text-decoration: none;
+  color: black;
+}
+.classificationHeading {
+  height: 30px;
+  text-align: left;
+  font-size: small;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.classificationBody {
+  font-size: small;
+  text-align: left;
+  color: #aaaaaa;
+  height: 40px;
+}
+.img-products {
+  min-width: 100%;
+  max-width: 85%;
+  height: 250px;
+}
+.rotatingText {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  width: 90%;
+  margin: 0 5%;
+  text-align: center;
+}
+.minHeading {
+  font-size: x-small;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: black;
+  font-weight: bolder;
+}
+.minDetail {
+  margin: 20px;
+  font-size: 15px;
+}
+.space2 {
+  width: 33%;
+  padding: 40px;
+}
+.size {
+  font-size: 14px;
+}
+@media (max-width: 768px) {
+  .col-md {
+    background: #FFF;
+    text-align: center;
+    margin: 0 5%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  .space {
+    width: 90%;
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+  }
+  .space2 {
+    width: 80%;
+    padding: 40px;
+  }
+}

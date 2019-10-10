@@ -1,0 +1,63 @@
+.image_Home{
+  width:100%;
+  height:100vh;
+  background-image: url('https://karimzerguinedesign.com/wp-content/uploads/2014/08/a-dscf9649.jpg');
+  background-size: cover;
+}
+.container_Home{
+  width: 100%;
+  height:650px;
+}
+.content_title_Home {
+  height: 198px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.content_buttons_Home{
+  height: 452px;
+  width: 100%;
+  background:rgba(0, 0, 0, 0.05);
+}
+.direction_title_Home{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.title_color_Home{
+  background:rgba(0, 0, 0, 0.05);
+  text-transform: uppercase;
+}
+.direction_buttons_home{
+  height:50%;
+  width: 100%;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  display: flex;
+  flex-direction: row;
+}
+.buttons_Home{
+  height: 100%;
+  width:25%;
+}
+.direction_text_Home{
+  text-align: center;
+}
+@media (max-width: 1024px){
+  .direction_buttons_home{
+    flex-direction: column;
+  }
+  .content_buttons_Home{
+    height: auto;
+  }
+  .container_Home{
+    height: auto;
+  }
+  .buttons_Home{
+    width: auto;
+  }
+  .content_title_Home{
+    width: auto;
+  }
+}
