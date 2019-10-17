@@ -46,7 +46,7 @@ class Contact extends Component {
       });
       this.resetForm();
     }else {
-      this.showAlert('warning', 'tienes campos sin llenar,completalos e intentalo denuevo');
+      this.showAlert('warning', 'tienes campos sin llenar,completalos e intentalo de nuevo');
     }
   }
 

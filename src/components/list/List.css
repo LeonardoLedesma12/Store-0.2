@@ -1,0 +1,27 @@
+.container_list{
+  height:100%;
+  width:100%;
+  background-color: #EEEEEE;
+  display: flex;
+  flex-direction: column;
+}
+
+.contentProduct_list{
+  height:40px;
+  width: 25%;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.txtProduct_list{
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 21px;
+}
+.content_list{
+  height: 100%;
+  width:100%;
+  display: flex;
+  flex-direction: row;
+}

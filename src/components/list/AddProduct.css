@@ -1,0 +1,9 @@
+.productsizedatalist{
+  width: 20%;
+  height: 40px;
+}
+.directionform_product{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}

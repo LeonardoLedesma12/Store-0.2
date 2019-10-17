@@ -9,6 +9,7 @@ import Car from './components/car/Car';
 import Login from './components/login/Login';
 import Registry from './components/registry/Registry';
 import Register from './components/register/Register';
+import List from './components/list/List';
 
 export const Routes = () => (
   <Switch>
@@ -21,5 +22,6 @@ export const Routes = () => (
     <Route exact path='/Login' component={Login} />
     <Route exact path='/Registry' component={Registry} />
     <Route exact path='/Register' component={Register} />
+    <Route exact path='/List' component={List} />
   </Switch>
 );
