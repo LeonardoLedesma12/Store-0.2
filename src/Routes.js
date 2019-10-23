@@ -23,5 +23,6 @@ export const Routes = () => (
     <Route exact path='/Registry' component={Registry} />
     <Route exact path='/Register' component={Register} />
     <Route exact path='/List' component={List} />
+    <Route exact path='/Login' component={Login} />
   </Switch>
 );
