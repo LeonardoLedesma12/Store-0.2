@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Products.css';
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 class Products extends Component {
   render() {
